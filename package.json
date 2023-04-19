@@ -4,8 +4,8 @@
   "description": "goalsetter app",
   "main": "server.js",
   "scripts": {
-    "start": "node backend/server.js",
-    "build": "cd frontend && npm run build"
+    "start": "nodemon backend/server.js",
+    "build": "npm i"
   },
   "author": "Thiru",
   "license": "MIT",
