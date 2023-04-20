@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node backend/server.js",
-    "build": "npm i"
+    "build": "npm i && cd frontend && npm i && npm run build"
   },
   "author": "Thiru",
   "license": "MIT",
