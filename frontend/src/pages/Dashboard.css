@@ -23,11 +23,11 @@
        font-size:39px;
    }
 }
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 500px){
     .head{
         
         position:relative;
-         right:100px;
+         right:150px;
          top:0px;
          font-size:17px;
          margin-bottom: 20px;
