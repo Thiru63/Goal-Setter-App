@@ -7,6 +7,7 @@ import Spinner from '../components/Spinner'
 import { getGoals, reset } from '../features/goals/goalSlice'
 import Login from './Login'
 import { RxAvatar } from "react-icons/rx";
+import "./Dashboard.css"
 
 function Dashboard() {
   const navigate = useNavigate()
@@ -44,8 +45,8 @@ function Dashboard() {
 
   return (
     <>
-    <header title={`Name:${user.name}\nEmail:${user.email}`}  
-    style={{ cursor:'pointer', position:'relative', right:'600px',top:'0px', fontSize:'20px' }}><RxAvatar style={{fontSize:'50px'}}/> Mine</header>
+    <header className='head' title={`Name:${user.name}\nEmail:${user.email}`} >
+      <RxAvatar className='avatar'/> Mine</header>
     
       <section className='heading'>
         <h1>Welcome {user && user.name}</h1>
